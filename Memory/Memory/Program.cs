@@ -94,7 +94,7 @@ namespace Memory
             {
                 var room = _rooms[i];
                 Console.WriteLine();
-                Console.WriteLine("Команата {0}", i + 1);
+                Console.WriteLine("Комната {0}", i + 1);
                 Console.WriteLine("Юнит: {0}", room.Unit.Name);
                 Console.WriteLine("Оружие: {0}", room.Weapon.Name);
                 Console.WriteLine("Интервал урона юнита: {0} - {1}", room.Unit.UnitDamageInterval.Min, room.Unit.UnitDamageInterval.Max);
